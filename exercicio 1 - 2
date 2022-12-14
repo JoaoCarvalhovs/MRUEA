@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+float base, altura, area;
+printf("\n qual a medida da sua base? ");
+scanf("%f", &base);
+printf("\n qual a medida da sua altura? ");
+scanf("%f", &altura);
+area = (base * altura) / 2;
+printf("a area do seu triangulo é de %.2f u.m", area);
+}
