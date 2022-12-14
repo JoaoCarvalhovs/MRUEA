@@ -1,0 +1,11 @@
+int main() 
+{
+float conta, pc, garcon;
+printf("\n qual o valor da conta? R$");
+scanf("%f", &conta); 
+printf("\n qual o valor da porcentagem do garcon? ");
+scanf("%f", &pc); 
+garcon = conta * (pc / 100);
+printf("\n o valor ao garçon será de %.2f ", garcon);
+
+}
