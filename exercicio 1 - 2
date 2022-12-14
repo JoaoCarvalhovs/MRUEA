@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() 
+{
+float salario, ajustado;
+printf("qual o valor do seu atual salario? ");
+scanf("%f", &salario);
+ajustado = salario + (salario * 0.1);
+printf(" seu novo salario sera de R$%.2f", ajustado);
+}
