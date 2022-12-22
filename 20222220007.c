@@ -20,4 +20,6 @@ int main(){
 		printf("\nA maior nota e %.2f\n", maior);
 		printf("a menor nota e %.2f\n", menor);
 		printf("a media foi de %.2f", mediareal);
+return 0;
 }
+
