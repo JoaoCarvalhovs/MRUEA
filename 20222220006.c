@@ -46,4 +46,5 @@ int main(){
 		num1 = i * 9;
 		printf("9 vezes %d é igual a %d\n", i, num1);
 	}
+	return 0;
 }

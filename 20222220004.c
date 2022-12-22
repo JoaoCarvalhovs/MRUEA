@@ -11,4 +11,5 @@ int main(){
 	}
 	printf("O maior numero e %d\n", num2);
 	printf("O menor numero e %d", num3);
+return 0;
 }

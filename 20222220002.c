@@ -11,4 +11,5 @@ for (i=0; i<50; i++){
 		num2 += num;
 	}
 printf("a soma dos impares e de %d", num2);
+return 0;
 }
