@@ -9,10 +9,9 @@ int main(){
     	printf("apenas positivos! tente novamente = ");
     	scanf("%d", &num);
 	}
-    for(j = num; j>=1; j-=1){
+    for(j = num; j>=0; j-=1){
     	cubo = j * j * j;
-    	printf("%d^3 = %d\n",j, cubo);
-		printf("os numeros");
+    	printf(" %d^3 = %d\n",j, cubo);
     	sequencia = (cubo/j);
     	k = (j-1)/2;
     	if (cubo % 2 != 0){
@@ -29,7 +28,6 @@ int main(){
         	}
 			printf(" %d = %d", sequencia - j + 1, cubo);
     	}
-		printf(", impares consecutivos, somados dao esse valor: %d", cubo);
     	printf("\n----------------------------------------------------------------------\n");
 	}
 }
